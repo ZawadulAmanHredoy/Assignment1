@@ -88,3 +88,59 @@ nav{
 .Launch_button{
 
 }
+
+.container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      /* padding: 100px; */
+      padding: 50px 200px;
+      min-height: 100vh;
+    }
+
+    .left {
+      flex: 1;
+      font-size: 48px;
+      font-weight: bold;
+      color: #000;
+      line-height: 1.2;
+    }
+
+    .right {
+      flex: 1;
+      max-width: 400px;
+      background-color: #f6f8ff;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 16px;
+      background-color: #fff; 
+    }
+
+    textarea {
+      resize: vertical;
+      height: 120px;
+    }
+
+    .submit-btn {
+      width: 100%;
+      padding: 15px;
+      background-color: #4E47FF;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    
