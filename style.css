@@ -66,6 +66,25 @@ nav{
    
 }
 
+.user{
+    background-color: rgba(173, 216, 230, 0.3);
+    /* opacity: 10%; */
+    margin: 50px 200px;
+    border-radius: 15px;
+    justify-content: center;
+  text-align: center;
+}
+.numbers{
+     font-weight: bolder;
+     font-size: larger;
+     color: #4E47FF;
+}
+.productive{
+    display: flex;
+    justify-content: center;
+  text-align: center;
+}
+
 .Launch_button{
 
 }
